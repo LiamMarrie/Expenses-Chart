@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Expenses Chart</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="balance">
+        <p class="title">My Balance</p>
+        <h2 class="myBalance">$921.48</h2>
+        <span><img class="logo" src="./images/logo.svg" alt="logo" /></span>
+      </div>
+
+      <div class="spending">
+        <h1>Spending - Last 7 days</h1>
+        <div class="daysWeek">
+          <div class="day">
+            <p class="value">$12.45</p>
+            <div class="mon bar"></div>
+            <p>Mon</p>
+          </div>
+          <div class="day">
+            <p class="value">$43.67</p>
+            <div class="tue bar"></div>
+            <p>Tue</p>
+          </div>
+          <div class="day">
+            <p class="value">$52.36</p>
+            <div class="wed bar"></div>
+            <p>Wed</p>
+          </div>
+          <div class="day">
+            <p class="value">$31.07</p>
+            <div class="thu bar"></div>
+            <p>Thu</p>
+          </div>
+          <div class="day">
+            <p class="value">$22.52</p>
+            <div class="fri bar"></div>
+            <p>Fri</p>
+          </div>
+          <div class="day">
+            <p class="value">$46.72</p>
+            <div class="sat bar"></div>
+            <p>Sat</p>
+          </div>
+          <div class="day">
+            <p class="value">$28.96</p>
+            <div class="sun bar"></div>
+            <p>Sun</p>
+          </div>
+        </div>
+        <hr />
+        <div class="total">
+          <div class="left">
+            <p>Total this month</p>
+            <h2><strong>$478.33</strong></h2>
+          </div>
+          <div class="right">
+            <strong>+2.4%</strong>
+            <p>From last month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js" async defer></script>
+  </body>
+</html>

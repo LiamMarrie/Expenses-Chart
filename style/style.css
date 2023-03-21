@@ -1,0 +1,162 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    background-color: hsl(27, 66%, 92%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.balance, .spending {
+    margin: 0 auto;
+}
+
+
+.balance{
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(33, 100%, 98%) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+    width: 40vw;
+    padding: 10px;
+    box-shadow: 10px 7px hsl(0, 0%, 0%);
+}
+
+.title{
+    color: hsl(33, 100%, 98%) !important;
+    margin-left: 20px;
+}
+
+h1{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+p{
+    color: hsl(28, 10%, 53%);
+}
+
+.logo{
+    float: right;
+    display: flex;
+    margin-top: -75px;
+    align-items: center;
+    justify-content: center;
+}
+
+.myBalance{
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+.spending{
+    background-color: hsl(33, 100%, 98%);
+    color: hsl(25, 47%, 15%);
+    margin: 20px;
+    border-radius: 20px;
+    width: 40vw;
+    padding: 10px;
+    box-shadow: 10px 7px hsl(0, 0%, 0%);
+}
+
+.daysWeek{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+    margin: 20px;
+}
+
+hr{
+    width: 95%;
+    background-color: hsl(27, 66%, 92%);
+
+}
+
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.strong{
+    font-weight: 900;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.bar {
+    position: relative;
+    width: 3vw;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+  
+.mon, .tue, .thu, .fri, .sat, .sun {
+    background-color: hsl(10, 79%, 65%);
+    height: 20vh;
+}
+
+.mon:hover, .tue:hover, .wed:hover, .thu:hover, .fri:hover, .sat:hover, .sun:hover, .value:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+  
+.wed {
+    background-color: hsl(186, 34%, 60%);
+    height: 20vh;
+}
+
+.value{
+    display: none;
+}
+  
+.tooltip {
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(27, 66%, 92%);
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 5px);
+    padding: 5px;
+    border-radius:5px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-right: 5px;
+    display: none;
+    width: fit-content;
+    white-space: nowrap;
+}
+ 
+.bar:hover {
+    opacity: 1;
+}
+  
+
+  
